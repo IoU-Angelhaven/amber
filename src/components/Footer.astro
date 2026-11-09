@@ -40,6 +40,9 @@ import { site, nav, navCta } from '../site.config';
   </div>
   <div class="wrap legal">
     <p>{site.disclaimer}</p>
+    <p class="ai-note">
+      <a href={url('/about/#how-ai-was-used')}>This website was built with help of AI, read more</a>
+    </p>
   </div>
 </footer>
 
@@ -101,5 +104,8 @@ import { site, nav, navCta } from '../site.config';
     border-top: 1px solid rgb(255 255 255 / 0.15);
     font-size: 0.85rem;
     color: #b4bdc8;
+  }
+  .ai-note {
+    margin-bottom: 0;
   }
 </style>
