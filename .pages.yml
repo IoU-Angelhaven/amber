@@ -240,3 +240,4 @@ content:
       - { name: body, label: Text, type: rich-text }
   - { name: privacy, label: Page – Privacy, type: file, path: src/content/pages/privacy.md, fields: *page }
   - { name: accessibility, label: Page – Accessibility, type: file, path: src/content/pages/accessibility.md, fields: *page }
+  - { name: ai-usage, label: Page – AI usage in development, type: file, path: src/content/pages/ai-usage.md, fields: *page }

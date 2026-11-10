@@ -14,8 +14,6 @@ contact:
   email: "patrik.goransson@skane.se"
 ---
 
-DRAFT: Review and adapt this text.
-
 ## How the AMBeR partners did it
 
 In AMBeR, the partners first developed a generic model for implementing eHealth in healthcare. Each partner then adapted the model into a local implementation guide that fits its own organisation, patients, staff and IT environment. You can follow the same approach.
