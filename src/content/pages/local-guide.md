@@ -18,35 +18,29 @@ In AMBeR, the partners first developed a generic model for implementing eHealth 
 
 ## 1. Gather a small team
 
-Bring together people who know the care process, the patients, the technology and the organisation. Include at least one person from clinical practice and one from management, and involve patients or patient representatives where you can.
+Bring together people of your organisation who have expertise and mandate in the care processes, the patients, digitalization and the organisation. In the AMBeR project we learned that successful teams trying to change implementation work must have mandate to do so on the relevant level in an organization.
 
-Agree on who leads the work, how much time each person can give, and how you will make decisions.
+## 2. Set purpose, ambitions and goals
 
-## 2. Go through the model phase by phase
+Talk through why you are creating an implementation guide, for whom and what's the expected outcome/change you want to achieve. It's not a bad idea to go through the checklist for "Needs assessment and status quo" for this work. Where are you today and where do you want to be in the future when it comes to implementation?
 
-Take the five phases and their activities one at a time. For each activity, ask:
+## 3. Go through the model phase by phase
+
+For each of the five phases and their activities, ask:
 
 - Is this activity relevant for us? Why or why not?
-- Who in our organisation is responsible?
+- Who in our organisation can help with this?
 - What do we already have in place, and what is missing?
-- What local rules, systems or routines must we take into account?
+- What local rules, systems or routines must we consider?
 
-Write down your answers as you go. They are the raw material for your local guide.
+## 4. Write your local guide
 
-## 3. Write your local guide
+You may use the suggested structure and formulations from the AMBeR Implementation guide to whatever extent you want to, or use your own words, format, examples etc. Remove what does not apply to your specific setting. We learned from the AMBeR project that keeping the guide short and in plain language was the key to success among our organisations.
 
-Keep the structure of the implementation model, but use your own words, names, roles and examples. Remove activities that do not apply and add what is specific to your setting.
+## 5. Test, follow up and revise
 
-Keep the guide short and practical, so that a colleague who was not part of the team can follow it. The Word version of the implementation guide is a good starting point.
+Treat the guide as a living document. Try it in practice, collect feedback and update it. Make sure to appoint a role or a unit that is responsible for regular reviews and updates.
 
-## 4. Test, follow up and revise
+## 6. Disseminate
 
-Treat the guide as a living document. Try it in practice, collect feedback from the people who use it, and note what worked and what did not.
-
-Update the guide regularly, and agree on who is responsible for keeping it current.
-
-## 5. Disseminate
-
-Share your local guide, and what you learned, so that others can benefit. Present it to colleagues, management and partner organisations, and tell the story of how you did it.
-
-Contact the AMBeR project if you would like your experience to be included among the stories of implementation.
+This entire process is pointless if the guide is not used to improve implementation work. Set a strategy for how the guide could be used in your organization, make sure it gets in the hands of the right people and projects, set goals and follow up. See the activities of phases "Sustainability" and "Evaluation" for inspiration.
