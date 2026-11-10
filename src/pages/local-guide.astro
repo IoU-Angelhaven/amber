@@ -31,24 +31,21 @@ const { Content } = await render(page);
         <div class="wrap">
           <span class="eyebrow">Download</span>
           <h2>The full implementation guide</h2>
-          <ul class="grid grid-wide">
+          <ul class="downloads-list">
             {page.data.downloads.map((d) => (
-              <li class="card download">
-                <Icon name="document" size={64} accent={d.format === 'Word' ? 'orange' : 'blue'} />
-                {d.format && <span class="eyebrow">{d.format}</span>}
-                <h3>
-                  {d.file ? (
-                    <a href={url(d.file)} download>
-                      {d.title}
-                    </a>
-                  ) : (
-                    d.title
-                  )}
-                </h3>
+              <li>
+                {d.file ? (
+                  <a class:list={['button', d.format === 'Word' && 'ghost']} href={url(d.file)} download>
+                    <Icon name="document" size={28} accent={d.format === 'Word' ? 'orange' : 'blue'} />
+                    <span>Download {d.format ?? d.title} ↓</span>
+                  </a>
+                ) : (
+                  <span class="button soon" aria-disabled="true">
+                    <Icon name="document" size={28} accent={d.format === 'Word' ? 'orange' : 'blue'} />
+                    <span>{d.format ?? d.title} · coming soon</span>
+                  </span>
+                )}
                 {d.description && <p>{d.description}</p>}
-                <p class="action">
-                  {d.file ? <span class="more">Download ↓</span> : <span class="muted">Coming soon</span>}
-                </p>
               </li>
             ))}
           </ul>
@@ -73,18 +70,38 @@ const { Content } = await render(page);
   .downloads {
     padding: 3rem 0;
   }
-  .download .eyebrow {
-    margin-top: 1rem;
+  .downloads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 3rem;
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
   }
-  .download h3 {
-    margin-bottom: 0.5rem;
+  .downloads-list li {
+    max-width: 22rem;
   }
-  .download .action {
-    margin-top: auto;
-    padding-top: 1rem;
-    font-weight: 700;
+  .downloads-list p {
+    margin: 0.75rem 0 0;
+    font-size: 0.95rem;
+    color: var(--muted);
   }
-  .more {
-    color: var(--blue);
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.5rem 0.7rem 1rem;
+  }
+  .button :global(svg) {
+    background: #fff;
+    border-radius: 3px;
+    padding: 2px;
+  }
+  .button.soon {
+    background: transparent;
+    border-style: dashed;
+    border-color: var(--grey);
+    color: var(--muted);
+    cursor: not-allowed;
   }
 </style>
