@@ -16,39 +16,37 @@ DRAFT: Review and adapt this text.
 
 In AMBeR, the partners first developed a generic model for implementing eHealth in healthcare. Each partner then adapted the model into a local implementation guide that fits its own organisation, patients, staff and IT environment. You can follow the same approach.
 
-## 1. Download the implementation model
+## 1. Gather a small team
 
-Download the full implementation guide in the section above: a PDF for reading and printing, and an editable Word version for adapting.
+Bring together people who know the care process, the patients, the technology and the organisation. Include at least one person from clinical practice and one from management, and involve patients or patient representatives where you can.
 
-## 2. Gather a small team
+Agree on who leads the work, how much time each person can give, and how you will make decisions.
 
-Bring together people who know the care process, the patients, the technology and the organisation. Include at least one person from clinical practice and one from management.
+## 2. Go through the model phase by phase
 
-## 3. Go through the model phase by phase
-
-For each of the five phases and their activities, ask:
+Take the five phases and their activities one at a time. For each activity, ask:
 
 - Is this activity relevant for us? Why or why not?
 - Who in our organisation is responsible?
 - What do we already have in place, and what is missing?
 - What local rules, systems or routines must we take into account?
 
-## 4. Write your local guide
+Write down your answers as you go. They are the raw material for your local guide.
+
+## 3. Write your local guide
 
 Keep the structure of the implementation model, but use your own words, names, roles and examples. Remove activities that do not apply and add what is specific to your setting.
 
-## 5. Use AI as a writing assistant
+Keep the guide short and practical, so that a colleague who was not part of the team can follow it. The Word version of the implementation guide is a good starting point.
 
-AI tools such as chatbots can help you adapt the model faster. Never paste patient data or other sensitive information into an AI tool, and always check the result with your team.
+## 4. Test, follow up and revise
 
-Example prompts:
+Treat the guide as a living document. Try it in practice, collect feedback from the people who use it, and note what worked and what did not.
 
-> I work at [type of organisation] in [country]. We are going to implement [eHealth service] for [patient group]. Below is one activity from the implementation model for implementing eHealth in healthcare. Rewrite it as practical instructions for our organisation, using the roles [list roles]. Point out anything that may not fit our context.
+Update the guide regularly, and agree on who is responsible for keeping it current.
 
-> Here is our draft local implementation guide. Act as a critical reviewer: which risks, stakeholders or practical steps might we have missed?
+## 5. Disseminate
 
-> Summarise this activity in plain language for [nurses / managers / patients] in at most 150 words.
+Share your local guide, and what you learned, so that others can benefit. Present it to colleagues, management and partner organisations, and tell the story of how you did it.
 
-## 6. Test, follow up and revise
-
-Treat the guide as a living document. Try it in practice, collect feedback and update it.
+Contact the AMBeR project if you would like your experience to be included among the stories of implementation.
