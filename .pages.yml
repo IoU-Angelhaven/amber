@@ -210,6 +210,26 @@ content:
           - { name: value, label: Value, type: string }
       - { name: body, label: Text, type: rich-text }
   - { name: about, label: Page – About AMBeR, type: file, path: src/content/pages/about.md, fields: *page }
-  - { name: local-guide, label: Page – Create your local guide, type: file, path: src/content/pages/local-guide.md, fields: *page }
+  - name: local-guide
+    label: Page – Create your local guide
+    type: file
+    path: src/content/pages/local-guide.md
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: intro, label: Introduction, type: text }
+      - name: downloads
+        label: Downloads of the implementation guide (leave "Download" empty to show "Coming soon")
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string, required: true }
+          - name: format
+            label: Format
+            type: select
+            options:
+              values: [PDF, Word]
+          - { name: description, label: Short description, type: text }
+          - { name: file, label: "Download (upload a file)", type: file }
+      - { name: body, label: Text, type: rich-text }
   - { name: privacy, label: Page – Privacy, type: file, path: src/content/pages/privacy.md, fields: *page }
   - { name: accessibility, label: Page – Accessibility, type: file, path: src/content/pages/accessibility.md, fields: *page }

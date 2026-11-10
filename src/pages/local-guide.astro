@@ -5,6 +5,7 @@ import PageHero from '../components/PageHero.astro';
 import Facts from '../components/Facts.astro';
 import Icon from '../components/Icon.astro';
 import Illustration from '../components/Illustration.astro';
+import { url } from '../lib/url';
 
 const page = await getEntry('pages', 'local-guide');
 if (!page) throw new Error('Missing src/content/pages/local-guide.md');
@@ -24,6 +25,34 @@ const { Content } = await render(page);
       </section>
     )
   }
+  {
+    page.data.downloads.length > 0 && (
+      <section class="section soft downloads">
+        <div class="wrap">
+          <span class="eyebrow">Download</span>
+          <h2>The full implementation guide</h2>
+          <ul class="downloads-list">
+            {page.data.downloads.map((d) => (
+              <li>
+                {d.file ? (
+                  <a class:list={['button', d.format === 'Word' && 'ghost']} href={url(d.file)} download>
+                    <Icon name="document" size={28} accent={d.format === 'Word' ? 'orange' : 'blue'} />
+                    <span>Download {d.format ?? d.title} ↓</span>
+                  </a>
+                ) : (
+                  <span class="button soon" aria-disabled="true">
+                    <Icon name="document" size={28} accent={d.format === 'Word' ? 'orange' : 'blue'} />
+                    <span>{d.format ?? d.title} · coming soon</span>
+                  </span>
+                )}
+                {d.description && <p>{d.description}</p>}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
   <div class="wrap">
     <article class="prose">
       <Content />
@@ -37,5 +66,42 @@ const { Content } = await render(page);
   }
   .facts-section {
     padding: 1rem 0;
+  }
+  .downloads {
+    padding: 3rem 0;
+  }
+  .downloads-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 3rem;
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+  }
+  .downloads-list li {
+    max-width: 22rem;
+  }
+  .downloads-list p {
+    margin: 0.75rem 0 0;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.5rem 0.7rem 1rem;
+  }
+  .button :global(svg) {
+    background: #fff;
+    border-radius: 3px;
+    padding: 2px;
+  }
+  .button.soon {
+    background: transparent;
+    border-style: dashed;
+    border-color: var(--grey);
+    color: var(--muted);
+    cursor: not-allowed;
   }
 </style>
