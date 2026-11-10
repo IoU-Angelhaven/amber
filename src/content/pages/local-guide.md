@@ -1,26 +1,30 @@
 ---
-title: "Create your own local implementation guide"
-intro: "The implementation model is generic. To make it useful in your organisation, adapt it to your local context, just as every AMBeR partner did."
+title: Create your own local implementation guide
+intro: The implementation model is generic. To make it useful in your
+  organisation, adapt it to your local context, just as every AMBeR partner did.
 downloads:
-  - title: "The implementation guide as PDF"
-    format: "PDF"
-    description: "The full guide with all five phases and 30 activities. Best for reading and printing."
-  - title: "The implementation guide as Word document"
-    format: "Word"
-    description: "An editable version of the full guide. Best for adapting it into your own local guide."
+  - title: The implementation guide as PDF
+    format: PDF
+    description: The full guide with all five phases and 30 activities. Best for
+      reading and printing.
+  - title: The implementation guide as Word document
+    format: Word
+    description: An editable version of the full guide. Best for adapting it into
+      your own local guide.
 contact:
-  title: "Get in touch"
-  text: "We would love to hear from you if you are in this process or already have worked with improving implementation in your organisation. Send an email to:"
-  email: "patrik.goransson@skane.se"
+  title: Get in touch
+  text: "We would love to hear from you if you are in this process or already have
+    worked with improving implementation in your organisation. Send an email
+    to:"
+  email: patrik.goransson@skane.se
 ---
-
 ## How the AMBeR partners did it
 
 In AMBeR, the partners first developed a generic model for implementing eHealth in healthcare. Each partner then adapted the model into a local implementation guide that fits its own organisation, patients, staff and IT environment. You can follow the same approach.
 
 ## 1. Gather a small team
 
-Bring together people of your organisation who have expertise and mandate in the care processes, the patients, digitalisation and the organisation. In the AMBeR project we learned that successful teams trying to change implementation work must have mandate to do so on the relevant level in an organisation.
+Bring together people of your organisation who have expertise and mandate in the care processes, the patients, digitalisation and management. In the AMBeR project we learned that successful teams trying to change implementation work must have mandate to do so on the relevant level of the organisation.
 
 ## 2. Set purpose, ambitions and goals
 
@@ -37,7 +41,7 @@ For each of the five phases and their activities, ask:
 
 ## 4. Write your local guide
 
-You may use the suggested structure and formulations from the AMBeR Implementation guide to whatever extent you want to, or use your own words, format, examples etc. Remove what does not apply to your specific setting. We learned from the AMBeR project that keeping the guide short and in plain language was the key to success among our organisations.
+You may use the suggested structure and formulations from the AMBeR Implementation guide to whatever extent you want to, or use your own words, format, examples etc. Remove what does not apply to your specific setting. Align with your own policy or strategy documents. We learned from the AMBeR project that keeping the guide short and in plain language was the key to success among our organisations.
 
 ## 5. Test, follow up and revise
 
