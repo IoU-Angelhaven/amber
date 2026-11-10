@@ -5,6 +5,7 @@ import PageHero from '../components/PageHero.astro';
 import Facts from '../components/Facts.astro';
 import Icon from '../components/Icon.astro';
 import Illustration from '../components/Illustration.astro';
+import { url } from '../lib/url';
 
 const page = await getEntry('pages', 'local-guide');
 if (!page) throw new Error('Missing src/content/pages/local-guide.md');
@@ -24,6 +25,37 @@ const { Content } = await render(page);
       </section>
     )
   }
+  {
+    page.data.downloads.length > 0 && (
+      <section class="section soft downloads">
+        <div class="wrap">
+          <span class="eyebrow">Download</span>
+          <h2>The full implementation guide</h2>
+          <ul class="grid grid-wide">
+            {page.data.downloads.map((d) => (
+              <li class="card download">
+                <Icon name="document" size={64} accent={d.format === 'Word' ? 'orange' : 'blue'} />
+                {d.format && <span class="eyebrow">{d.format}</span>}
+                <h3>
+                  {d.file ? (
+                    <a href={url(d.file)} download>
+                      {d.title}
+                    </a>
+                  ) : (
+                    d.title
+                  )}
+                </h3>
+                {d.description && <p>{d.description}</p>}
+                <p class="action">
+                  {d.file ? <span class="more">Download ↓</span> : <span class="muted">Coming soon</span>}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
   <div class="wrap">
     <article class="prose">
       <Content />
@@ -37,5 +69,22 @@ const { Content } = await render(page);
   }
   .facts-section {
     padding: 1rem 0;
+  }
+  .downloads {
+    padding: 3rem 0;
+  }
+  .download .eyebrow {
+    margin-top: 1rem;
+  }
+  .download h3 {
+    margin-bottom: 0.5rem;
+  }
+  .download .action {
+    margin-top: auto;
+    padding-top: 1rem;
+    font-weight: 700;
+  }
+  .more {
+    color: var(--blue);
   }
 </style>

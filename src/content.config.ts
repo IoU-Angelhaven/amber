@@ -90,6 +90,17 @@ const pages = defineCollection({
           .default([]),
       })
       .optional(),
+    // Downloads of the full implementation guide (used by the "Create your local guide" page)
+    downloads: z
+      .array(
+        z.object({
+          title: z.string(),
+          format: z.string().optional(), // e.g. PDF, Word
+          description: z.string().optional(),
+          file: z.string().optional(), // file uploaded in the editor; empty = "Coming soon"
+        }),
+      )
+      .default([]),
     // List of resources (used by the "Learnings & resources" page)
     resources: z
       .array(

@@ -1,6 +1,13 @@
 ---
 title: "Create your own local implementation guide"
 intro: "The implementation model is generic. To make it useful in your organisation, adapt it to your local context, just as every AMBeR partner did."
+downloads:
+  - title: "The implementation guide as PDF"
+    format: "PDF"
+    description: "The full guide with all five phases and 30 activities. Best for reading and printing."
+  - title: "The implementation guide as Word document"
+    format: "Word"
+    description: "An editable version of the full guide. Best for adapting it into your own local guide."
 ---
 
 DRAFT: Review and adapt this text.
@@ -11,7 +18,7 @@ In AMBeR, the partners first developed a generic model for implementing eHealth 
 
 ## 1. Download the implementation model
 
-PLACEHOLDER: Links to the downloadable documents (for example the full model as PDF and an editable Word version).
+Download the full implementation guide in the section above: a PDF for reading and printing, and an editable Word version for adapting.
 
 ## 2. Gather a small team
 
