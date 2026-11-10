@@ -18,7 +18,7 @@ In AMBeR, the partners first developed a generic model for implementing eHealth 
 
 ## 1. Gather a small team
 
-Bring together people of your organisation who have expertise and mandate in the care processes, the patients, digitalization and the organisation. In the AMBeR project we learned that successful teams trying to change implementation work must have mandate to do so on the relevant level in an organization.
+Bring together people of your organisation who have expertise and mandate in the care processes, the patients, digitalisation and the organisation. In the AMBeR project we learned that successful teams trying to change implementation work must have mandate to do so on the relevant level in an organisation.
 
 ## 2. Set purpose, ambitions and goals
 
@@ -43,4 +43,4 @@ Treat the guide as a living document. Try it in practice, collect feedback and u
 
 ## 6. Disseminate
 
-This entire process is pointless if the guide is not used to improve implementation work. Set a strategy for how the guide could be used in your organization, make sure it gets in the hands of the right people and projects, set goals and follow up. See the activities of phases "Sustainability" and "Evaluation" for inspiration.
+This entire process is pointless if the guide is not used to improve implementation work. Set a strategy for how the guide could be used in your organisation, make sure it gets in the hands of the right people and projects, set goals and follow up. See the activities of phases "Sustainability" and "Evaluation" for inspiration.
