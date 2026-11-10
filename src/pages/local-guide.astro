@@ -58,6 +58,22 @@ const { Content } = await render(page);
       <Content />
     </article>
   </div>
+  {
+    page.data.contact && (
+      <section class="section soft contact">
+        <div class="wrap contact-inner">
+          <Icon name="mail" size={96} accent="orange" />
+          <div>
+            <h2>{page.data.contact.title}</h2>
+            <p>{page.data.contact.text}</p>
+            <p>
+              <a href={`mailto:${page.data.contact.email}`}>{page.data.contact.email}</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    )
+  }
 </Base>
 
 <style>
@@ -66,6 +82,25 @@ const { Content } = await render(page);
   }
   .facts-section {
     padding: 1rem 0;
+  }
+  article {
+    padding-bottom: 4rem;
+  }
+  .contact-inner {
+    display: grid;
+    gap: 1.5rem 2.5rem;
+    align-items: center;
+  }
+  @media (min-width: 40rem) {
+    .contact-inner {
+      grid-template-columns: auto 1fr;
+    }
+  }
+  .contact h2 {
+    margin-top: 0;
+  }
+  .contact p {
+    max-width: 44rem;
   }
   .downloads {
     padding: 3rem 0;

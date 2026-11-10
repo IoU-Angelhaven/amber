@@ -8,6 +8,10 @@ downloads:
   - title: "The implementation guide as Word document"
     format: "Word"
     description: "An editable version of the full guide. Best for adapting it into your own local guide."
+contact:
+  title: "Get in touch"
+  text: "We would love to hear from you if you are in this process or already have worked with improving implementation in your organisation. Send an email to:"
+  email: "patrik.goransson@skane.se"
 ---
 
 DRAFT: Review and adapt this text.

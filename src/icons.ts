@@ -69,6 +69,10 @@ export const icons = {
     accent: '<path d="M6 18l18-6v40L6 58z"/>',
     line: '<path d="M10 14l16-6 14 6 16-6v42l-16 6-14-6-16 6z"/><path d="M26 8v42M40 14v42"/>',
   },
+  mail: {
+    accent: '<rect x="6" y="24" width="40" height="28"/>',
+    line: '<rect x="12" y="14" width="46" height="34" rx="3"/><path d="M12 18l23 18 23-18"/><path d="M12 46l16-14M58 46L42 32"/>',
+  },
   // --- story icons ---
   phone: {
     // a phone call before the first appointment
