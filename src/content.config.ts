@@ -101,6 +101,8 @@ const pages = defineCollection({
         }),
       )
       .default([]),
+    // "Get in touch" section at the bottom of a page (used by the "Create your local guide" page)
+    contact: z.object({ title: z.string(), text: z.string(), email: z.string() }).optional(),
     // List of resources (used by the "Learnings & resources" page)
     resources: z
       .array(

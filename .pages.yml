@@ -230,6 +230,13 @@ content:
               values: [PDF, Word]
           - { name: description, label: Short description, type: text }
           - { name: file, label: "Download (upload a file)", type: file }
+      - name: contact
+        label: "Get in touch (grey section at the bottom of the page)"
+        type: object
+        fields:
+          - { name: title, label: Heading, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: email, label: Email address, type: string }
       - { name: body, label: Text, type: rich-text }
   - { name: privacy, label: Page – Privacy, type: file, path: src/content/pages/privacy.md, fields: *page }
   - { name: accessibility, label: Page – Accessibility, type: file, path: src/content/pages/accessibility.md, fields: *page }
