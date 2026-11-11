@@ -15,7 +15,7 @@ prompts:
     attach: "the evaluation plan"
     ask: "Develop a routine for handling problems during the pilot of [solution]. How are problems found, by whom, who is told, how fast can changes be made and how are changes communicated to users?"
   - title: "Draft the pilot report"
-    attach: "anonymized pilot data or notes, and the evaluation plan"
+    attach: "anonymised pilot data or notes, and the evaluation plan"
     ask: "Use the attached data and notes to draft a pilot results report. Include: main findings against our goals, lessons learned, recommendations for improving the solution and a recommendation to continue, adjust or stop. Mark where the data is not enough for a firm conclusion."
 ---
 ## Checklist

@@ -3,14 +3,14 @@ step: step-3
 order: 4
 title: "Define Outcomes and Targets"
 summary: |-
-  Clear, measurable results guide the work, make it possible to follow progress and show whether the implementation has succeeded. This activity describes what success looks like for clinical results, operations, users and the organization, and turns it into specific targets with dates.
+  Clear, measurable results guide the work, make it possible to follow progress and show whether the implementation has succeeded. This activity describes what success looks like for clinical results, operations, users and the organisation, and turns it into specific targets with dates.
 
   Well-defined results give stakeholders a shared understanding, support accountability, allow early correction and provide evidence for decisions on wider rollout. Develop them together with stakeholders so that they reflect different views.
 icon: compass
 prompts:
   - title: "Define results and goals"
     attach: "the project charter and the problem definition from Phase 1"
-    ask: "Develop a set of results for [solution implementation] in four areas: clinical quality and patient safety, operational efficiency, user experience, and organizational or financial results. Use the attached documents. For each area, suggest 3–5 SMART goals with a starting level and a target value."
+    ask: "Develop a set of results for [solution implementation] in four areas: clinical quality and patient safety, operational efficiency, user experience, and organisational or financial results. Use the attached documents. For each area, suggest 3–5 SMART goals with a starting level and a target value."
   - title: "Create a logic model"
     attach: "the project description"
     ask: "Create a logic model for [solution] as a table. Show: resources, activities, direct results, short-term results (30–90 days), medium-term results (6–12 months) and long-term impact (1–3 years)."
@@ -21,7 +21,7 @@ prompts:
 ## Checklist
 
 - Hold workshops to agree what success means for patients and families, clinical staff, administrative staff, IT and leaders.
-- Define results in four areas: clinical (for example patient safety), operational (for example time saved), user experience (for example how much the solution is used) and organizational (for example cost or staff satisfaction).
+- Define results in four areas: clinical (for example patient safety), operational (for example time saved), user experience (for example how much the solution is used) and organisational (for example cost or staff satisfaction).
 - Measure the current level (the starting point) before implementation starts.
 - Turn the results into [SMART goals](https://www.mindtools.com/a4wo118/smart-goals) with target values, dates and milestones.
 - Show all areas together, for example in a [balanced scorecard](https://balancedscorecard.org/bsc-basics-overview/), so that no single measure dominates.

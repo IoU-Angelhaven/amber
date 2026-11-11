@@ -9,7 +9,7 @@ summary: |-
 icon: chat
 prompts:
   - title: "Create a stakeholder map"
-    attach: "a short description of the project and a list of the units, roles and organizations involved"
+    attach: "a short description of the project and a list of the units, roles and organisations involved"
     ask: "Create a stakeholder map for [digital solution] at [hospital]. Use the attached documents. Identify the likely stakeholder groups, their influence and interest, and their likely concerns. For each group, suggest whether they should be informed, asked for input or actively involved. Show the result as a table."
   - title: "Plan engagement"
     attach: "the stakeholder map"
@@ -17,7 +17,7 @@ prompts:
 ---
 ## Checklist
 
-- List all people, teams and organizations that are affected by the project or can influence it.
+- List all people, teams and organisations that are affected by the project or can influence it.
 - Sort them by their level of influence and their level of interest.
 - Identify possible champions: people who can support and speak for the change.
 - Identify groups that may resist or need extra information and support.

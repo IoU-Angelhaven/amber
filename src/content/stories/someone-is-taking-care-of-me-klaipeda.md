@@ -1,6 +1,6 @@
 ---
 title: "\"Someone is taking care of me\""
-summary: "The platform only let patients give feedback with a smiley. We added text messages and updated exercise programs often, which built trust and motivation."
+summary: "The platform only let patients give feedback with a smiley. We added text messages and updated exercise programmes often, which built trust and motivation."
 organisation: "Klaipėda University"
 country: "Lithuania"
 topic: "Digital physiotherapy"
@@ -12,7 +12,7 @@ published: true
 
 ## The starting point
 
-Patients followed exercise programs on a digital platform. Contact with patients was especially important in the first two weeks.
+Patients followed exercise programmes on a digital platform. Contact with patients was especially important in the first two weeks.
 
 ## What we noticed
 
@@ -20,7 +20,7 @@ The platform had very few tools for feedback. Patients could only send a smiley.
 
 ## What we tried
 
-We sent text messages directly to patients' phones. We also updated each patient's exercise program frequently.
+We sent text messages directly to patients' phones. We also updated each patient's exercise programme frequently.
 
 ## What we learned
 

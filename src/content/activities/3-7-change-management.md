@@ -3,7 +3,7 @@ step: step-3
 order: 7
 title: "Change Management"
 summary: |-
-  Change management is a structured way to help individuals, teams and organizations move from the current way of working to a new one. Digital health solutions change workflows, clinical practice, skills and sometimes organizational structures.
+  Change management is a structured way to help individuals, teams and organisations move from the current way of working to a new one. Digital health solutions change workflows, clinical practice, skills and sometimes organisational structures.
 
   Most failed implementations in healthcare are caused by too little attention to the human side of change, not by weak technology. Good change management builds readiness and confidence, reduces resistance and helps new practices last. It must run through the whole implementation and not stand alone.
 icon: cycle
@@ -27,12 +27,12 @@ prompts:
 - Offer training in several formats, such as classroom, online, hands-on and peer coaching.
 - Prepare [champions](https://link.springer.com/article/10.1186/s13012-020-01024-9) and super-users, and set up support such as a help desk, with clear routes for difficult problems.
 - Find sources of resistance and address them. Adjust workflows, policies and incentives so that they support the new way of working.
-- Follow how much the solution is used, recognize early adopters, and plan support after go-live to prevent a return to old habits.
+- Follow how much the solution is used, recognise early adopters, and plan support after go-live to prevent a return to old habits.
 
 ## Methods and tools
 
 - **[ADKAR model](https://www.prosci.com/methodology/adkar):** Five steps for individual change: Awareness, Desire, Knowledge, Ability and Reinforcement.
-- **[Change readiness assessment](https://www.prosci.com/blog/when-should-you-use-a-change-management-readiness-assessment):** Evaluates how prepared the organization is for change. [ORCA](https://dissemination-implementation.org/assessment-instrument/organizational-readiness-to-change-assessment-orca/) is a validated survey for healthcare settings.
+- **[Change readiness assessment](https://www.prosci.com/blog/when-should-you-use-a-change-management-readiness-assessment):** Evaluates how prepared the organisation is for change. [ORCA](https://dissemination-implementation.org/assessment-instrument/organizational-readiness-to-change-assessment-orca/) is a validated survey for healthcare settings.
 - **[Change impact assessment](https://thechangecompass.com/how-to-conduct-a-change-impact-assessment-a-complete-practitioner-guide/):** Identifies what will change for each group and how big the impact is.
 - **[Champions and super-users](https://link.springer.com/article/10.1186/s13012-020-01024-9):** Peer leaders who give practical support and encourage use.
 - **[Communication plan](https://www.smartsheet.com/content/project-communications-plan):** Key messages, audiences, channels, timing and responsibilities.

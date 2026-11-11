@@ -17,5 +17,5 @@ Each activity has four parts: a short introduction, a checklist, methods and too
 
 - Replace the text in [square brackets] with your own information.
 - When a prompt says “Attach”, add the named documents to your conversation with the AI assistant. The answers are much better when the AI has your own documents as background.
-- Do not attach documents that contain patient information or other personal data. Remove names and other details that identify a person first, and follow your organization’s rules for using AI.
-- Always check the answers. AI can make mistakes, especially about laws, rules and examples from other organizations.
+- Do not attach documents that contain patient information or other personal data. Remove names and other details that identify a person first, and follow your organisation’s rules for using AI.
+- Always check the answers. AI can make mistakes, especially about laws, rules and examples from other organisations.

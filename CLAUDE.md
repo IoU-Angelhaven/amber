@@ -16,3 +16,5 @@
 - Language menu (`LanguagePicker.astro`, languages in `src/site.config.ts`): links to Google Translate's free website proxy (`*.translate.goog`). No Google script or cookies on our site; translations are not reviewed.
 - No cookies: analytics must be cookie-free (configured in `src/site.config.ts`).
 - Run `npm run build` before committing.
+- Language: British English throughout (organisation, programme, patient-centred). Exceptions: the project name is written as in the logo, "Advanced Modeling of Baltic Cancer E-Care"; the hospital is written "Ängelholms hospital"; proper names of partners (e.g. "University Rostock Medical Center") and activity file names/ids keep their spelling.
+- `astro.config.mjs` writes `sitemap.xml` and `robots.txt` after the build. Pages CMS saves directly to `main`, so fetch `origin/main` before starting new work.

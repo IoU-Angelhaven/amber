@@ -12,7 +12,7 @@ prompts:
     attach: "a description of the solution"
     ask: "Create a think-aloud test guide for testing [solution, for example a digital medication check] with [nurses]. Include an introduction script, three typical tasks, follow-up questions and a short consent text."
   - title: "Analyse test results"
-    attach: "anonymized notes from your tests"
+    attach: "anonymised notes from your tests"
     ask: "List the problems found in the attached test notes. Sort them by how serious they are and how many users were affected. Suggest fixes for the three most important problems."
 ---
 ## Checklist

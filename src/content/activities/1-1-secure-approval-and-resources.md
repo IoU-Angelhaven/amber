@@ -3,7 +3,7 @@ step: step-1
 order: 1
 title: "Secure Approval and Resources (Mandate)"
 summary: |-
-  Implementation in healthcare often crosses professions, organizations and sometimes regions. Make sure that decision-makers support the work and that the time, skills and funding are in place.
+  Implementation in healthcare often crosses professions, organisations and sometimes regions. Make sure that decision-makers support the work and that the time, skills and funding are in place.
 
   A clear approval (a “mandate”) gives the work legitimacy, reduces resistance and gives the team the authority it needs from the start.
 icon: clipboard
@@ -20,10 +20,10 @@ prompts:
 - Make a short, high-level plan for time and resources.
 - Estimate the budget, including staff time, tools and external support.
 - Ask the relevant decision-makers, such as department heads, digital leads and clinical directors, for formal approval.
-- Agree how the approval and the purpose of the work will be communicated to the wider organization.
+- Agree how the approval and the purpose of the work will be communicated to the wider organisation.
 - Write down known limits before you start, such as budget caps, deadlines and legal requirements.
 
 ## Methods and tools
 
 - **[Project charter](https://asana.com/resources/project-charter):** A short document that states the purpose, expected benefits, resources and decision-makers. It is used to ask for approval.
-- **[ADKAR model](https://www.prosci.com/methodology/adkar) and [Kotter’s eight steps](https://www.open.edu/openlearn/money-business/hybrid-working-change-management/content-section-9.3):** Step-by-step models that describe how people and organizations move through a change.
+- **[ADKAR model](https://www.prosci.com/methodology/adkar) and [Kotter’s eight steps](https://www.open.edu/openlearn/money-business/hybrid-working-change-management/content-section-9.3):** Step-by-step models that describe how people and organisations move through a change.

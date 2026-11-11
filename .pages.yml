@@ -155,10 +155,10 @@ content:
                         - { value: "2-3-build-early-versions", label: "2.3 Build Early Versions (Prototyping)" }
                         - { value: "2-4-test-and-learn", label: "2.4 Test and Learn" }
                         - { value: "2-5-describe-the-future-way-of-working", label: "2.5 Describe the Future Way of Working (Future Model of Care)" }
-                        - { value: "2-6-engage-and-prepare-the-organization", label: "2.6 Engage and Prepare the Organization" }
+                        - { value: "2-6-engage-and-prepare-the-organization", label: "2.6 Engage and Prepare the Organisation" }
                         - { value: "3-1-describe-and-plan-resources", label: "3.1 Describe and Plan Resources" }
                         - { value: "3-2-economic-plan-funding", label: "3.2 Economic Plan / Funding" }
-                        - { value: "3-3-resource-mobilization", label: "3.3 Resource Mobilization" }
+                        - { value: "3-3-resource-mobilization", label: "3.3 Resource Mobilisation" }
                         - { value: "3-4-define-outcomes-and-targets", label: "3.4 Define Outcomes and Targets" }
                         - { value: "3-5-plan-the-pilot-evaluation", label: "3.5 Plan the Pilot Evaluation" }
                         - { value: "3-6-pilot-testing", label: "3.6 Pilot Testing" }
@@ -166,7 +166,7 @@ content:
                         - { value: "4-1-plan-for-the-long-term", label: "4.1 Plan for the Long Term" }
                         - { value: "4-2-build-skills-and-capacity", label: "4.2 Build Skills and Capacity (Capacity Building)" }
                         - { value: "4-3-plan-for-spreading-the-solution", label: "4.3 Plan for Spreading the Solution (Scalability)" }
-                        - { value: "4-4-secure-organizational-resources", label: "4.4 Secure Organizational Resources" }
+                        - { value: "4-4-secure-organizational-resources", label: "4.4 Secure Organisational Resources" }
                         - { value: "4-5-describe-the-value", label: "4.5 Describe the Value (Value Proposition)" }
                         - { value: "4-6-set-up-leadership-and-decision-making", label: "4.6 Set Up Leadership and Decision-Making (Governance)" }
                         - { value: "5-1-collect-and-analyse-data", label: "5.1 Collect and Analyse Data (Data Collection & Analysis)" }

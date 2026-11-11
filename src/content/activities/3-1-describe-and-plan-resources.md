@@ -10,7 +10,7 @@ icon: calendar
 prompts:
   - title: "Create a resource plan"
     attach: "your project charter and the list of team members"
-    ask: "Create a resource plan for implementing [solution] at [organization]. Use the attached documents. For each phase, list the core team roles, the time needed (hours per week or full-time equivalent), the skills needed, who reports to whom and who makes decisions."
+    ask: "Create a resource plan for implementing [solution] at [organisation]. Use the attached documents. For each phase, list the core team roles, the time needed (hours per week or full-time equivalent), the skills needed, who reports to whom and who makes decisions."
   - title: "Find skills gaps"
     attach: "a list of the roles and the staff available (without personal information)"
     ask: "Carry out a skills gap analysis for implementing [solution]. Use the attached list. Which skills and experience are needed, where are the gaps, and which training, recruitment or external support is required?"

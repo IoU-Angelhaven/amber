@@ -3,14 +3,14 @@ step: step-2
 order: 2
 title: "Explore Digital Tools, Possibilities, Policies and Laws"
 summary: |-
-  Before you use resources to develop solutions, understand the available technology, the rules and the limits in your organization. This makes sure that the solution is possible, follows the rules and fits with existing IT.
+  Before you use resources to develop solutions, understand the available technology, the rules and the limits in your organisation. This makes sure that the solution is possible, follows the rules and fits with existing IT.
 
   It also prevents work on solutions that break rules or copy systems that already exist.
 icon: monitor
 prompts:
-  - title: "Summarize data protection rules"
+  - title: "Summarise data protection rules"
     attach: "your project description"
-    ask: "Summarize the main GDPR and national patient data requirements that apply to [specific solution] in [country or region]. Explain in plain language what they mean for us and which questions I should ask our data protection officer. Mark anything you are unsure about, because I will check it myself."
+    ask: "Summarise the main GDPR and national patient data requirements that apply to [specific solution] in [country or region]. Explain in plain language what they mean for us and which questions I should ask our data protection officer. Mark anything you are unsure about, because I will check it myself."
   - title: "List rules and standards"
     ask: "List the European rules and standards to consider when implementing [solution, for example remote patient monitoring or digital prescribing]. For each, explain the requirement in simple words and say who in a hospital usually handles it. Tell me clearly where I need to check the current version."
   - title: "Compare with existing systems"
@@ -19,12 +19,12 @@ prompts:
 ---
 ## Checklist
 
-- List the digital tools and systems that already exist in your organization.
+- List the digital tools and systems that already exist in your organisation.
 - Check how data protection rules, such as GDPR and national patient data laws, affect your project.
-- If needed, learn about organizational policies that matter, such as purchasing, IT management and change procedures.
+- If needed, learn about organisational policies that matter, such as purchasing, IT management and change procedures.
 - Check clinical guidelines and legal requirements for your specialty.
 - Find out which funding and purchasing routes are available.
-- Look at similar solutions in comparable organizations.
+- Look at similar solutions in comparable organisations.
 - Book meetings with IT leaders, compliance staff and purchasing staff.
 
 ## Methods and tools

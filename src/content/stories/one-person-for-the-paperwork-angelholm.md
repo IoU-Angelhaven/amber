@@ -1,7 +1,7 @@
 ---
 title: "One person for the paperwork, more time for rehab"
 summary: "When study tasks and clinical work became too much, we gave all study tasks to one person. The others could focus on rehabilitation."
-organisation: "Ängelholm Hospital, Region Skåne"
+organisation: "Ängelholms hospital, Region Skåne"
 country: "Sweden"
 topic: "Digital physiotherapy"
 steps:

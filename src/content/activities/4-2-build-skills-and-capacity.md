@@ -3,7 +3,7 @@ step: step-4
 order: 2
 title: "Build Skills and Capacity (Capacity Building)"
 summary: |-
-  Building capacity means strengthening people, structures and systems so that the organization can adopt, use and improve digital ways of working over time. The aim is a lasting ability, not only a result during the project.
+  Building capacity means strengthening people, structures and systems so that the organisation can adopt, use and improve digital ways of working over time. The aim is a lasting ability, not only a result during the project.
 
   The expected results are higher digital skills among staff and support for continuous learning. Learning should be part of everyday clinical work, not something added on top of it.
 icon: training

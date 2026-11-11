@@ -10,7 +10,7 @@ icon: people
 prompts:
   - title: "Suggest a structure"
     attach: "the project charter and the resource plan"
-    ask: "Suggest a leadership and decision structure for [solution] at [organization] after the pilot. Use the attached documents. Include a steering group, working groups, who makes which decisions, what to do when a problem cannot be solved at a lower level, and how reporting works."
+    ask: "Suggest a leadership and decision structure for [solution] at [organisation] after the pilot. Use the attached documents. Include a steering group, working groups, who makes which decisions, what to do when a problem cannot be solved at a lower level, and how reporting works."
   - title: "Create a RACI matrix"
     attach: "the resource plan"
     ask: "Create a RACI matrix for the long-term running of [solution]. Include clinical leadership, frontline staff, IT, quality and safety, finance and senior management."

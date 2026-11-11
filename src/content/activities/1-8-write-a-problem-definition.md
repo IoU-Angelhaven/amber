@@ -6,13 +6,13 @@ summary: "A clear problem definition is very important for the work that follows
 icon: document
 prompts:
   - title: "Write a problem statement"
-    attach: "a summary of your user research, process map and stakeholder input (anonymized)"
+    attach: "a summary of your user research, process map and stakeholder input (anonymised)"
     ask: "Based on the attached findings from [clinical setting] and [user group], write a problem statement. It should say who is affected, what the main problem is and why it matters. Do not suggest a solution or a technology. Give two alternative versions."
   - title: "Create “How might we” questions"
     attach: "the problem statement"
     ask: "Rewrite the attached problem statement as 5–8 “How might we…?” questions with different breadth, suitable for a workshop with clinical staff and patients."
   - title: "Find the root cause"
-    ask: "I want to find the root cause of this problem: [problem]. Use the 5 Whys method. Ask me one “why” question at a time and wait for my answer before the next question. After five rounds, summarize the root cause."
+    ask: "I want to find the root cause of this problem: [problem]. Use the 5 Whys method. Ask me one “why” question at a time and wait for my answer before the next question. After five rounds, summarise the root cause."
 ---
 ## Checklist
 

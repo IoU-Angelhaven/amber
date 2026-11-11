@@ -14,7 +14,7 @@ prompts:
   - title: "Create an interview guide"
     ask: "Create an interview guide for a 45-minute interview with [user group] in [clinical setting]. Cover: daily workflows, current challenges, experience with digital tools, and what would make a new solution useful. Include warm-up questions and follow-up questions."
   - title: "Find themes in interview notes"
-    attach: "anonymized interview notes (remove names and patient information first)"
+    attach: "anonymised interview notes (remove names and patient information first)"
     ask: "Group the attached notes into themes. List the main pain points and needs for each user group, and suggest three questions that need more research."
 ---
 ## Checklist
