@@ -2,7 +2,7 @@
 export const site = {
   name: 'eHealth Implementation',
   project: 'AMBeR',
-  projectLong: 'Advanced Modelling of Baltic Cancer E-Care',
+  projectLong: 'Advanced Modeling of Baltic Cancer E-Care',
   description:
     'Knowledge and tools for implementing eHealth in healthcare in the Baltic Sea region, from the Interreg South Baltic project AMBeR.',
   contactEmail: '', // TODO: add a contact address

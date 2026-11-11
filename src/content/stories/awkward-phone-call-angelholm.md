@@ -1,7 +1,7 @@
 ---
 title: "An awkward phone call that became routine"
 summary: "A new phone call before the first appointment felt awkward at first. With practice, it became a lasting part of how we work."
-organisation: "Ängelholm Hospital, Region Skåne"
+organisation: "Ängelholms hospital, Region Skåne"
 country: "Sweden"
 topic: "Digital physiotherapy"
 steps:

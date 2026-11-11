@@ -10,7 +10,7 @@ icon: chart
 prompts:
   - title: "Write a cost-benefit analysis"
     attach: "cost estimates, the resource plan and any pilot results"
-    ask: "Write a cost-benefit analysis for implementing [solution] at [organization]. Use the attached documents. Include one-time costs by category, running costs, expected clinical and operational benefits, cost avoided over 3–5 years, and ROI or payback time. Mark every number that you assumed."
+    ask: "Write a cost-benefit analysis for implementing [solution] at [organisation]. Use the attached documents. Include one-time costs by category, running costs, expected clinical and operational benefits, cost avoided over 3–5 years, and ROI or payback time. Mark every number that you assumed."
   - title: "Create a budget"
     attach: "the resource plan"
     ask: "Create a phased budget for [implementation project] using the attached resource plan. Show one-time costs (technology, training, change management, external services) and running costs (staff, licences, maintenance, support). Show how the total changes if the main assumptions are 20% too low or too high."

@@ -14,6 +14,7 @@ const base = process.env.BASE_PATH ?? '/ehealth-implementation';
  * After the build, add the sub-folder to any link or image that still points to the
  * site root – for example a link or image written inside Markdown text (/media/file.pdf).
  * Templates already use url() from src/lib/url.ts.
+ * The same step also writes sitemap.xml and robots.txt.
  * @returns {import('astro').AstroIntegration}
  */
 function prefixRootLinks() {
@@ -22,9 +23,24 @@ function prefixRootLinks() {
     name: 'prefix-root-links',
     hooks: {
       'astro:build:done': async ({ dir }) => {
-        if (!prefix) return;
         const root = fileURLToPath(dir);
         const files = (await readdir(root, { recursive: true })).filter((f) => f.endsWith('.html'));
+
+        // sitemap.xml and robots.txt for search engines (every published page except the 404 page)
+        const origin = site.replace(/\/$/, '') + prefix;
+        const pages = files
+          .filter((f) => f.endsWith('index.html'))
+          .map((f) => '/' + f.split(/[\\/]/).slice(0, -1).join('/'))
+          .map((p) => (p === '/' ? '/' : p + '/'))
+          .sort();
+        const sitemap =
+          '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+          pages.map((p) => `  <url><loc>${origin}${p}</loc></url>`).join('\n') +
+          '\n</urlset>\n';
+        await writeFile(join(root, 'sitemap.xml'), sitemap);
+        await writeFile(join(root, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${origin}/sitemap.xml\n`);
+
+        if (!prefix) return;
         const re = new RegExp(`\\b(href|src)="/(?!/)(?!${prefix.slice(1)}(?:/|"))`, 'g');
         for (const f of files) {
           const path = join(root, f);

@@ -10,7 +10,7 @@ icon: calendar
 prompts:
   - title: "Create a roadmap"
     attach: "your pilot plan and pilot results"
-    ask: "Create a long-term roadmap for [solution] at [organization] for the period after the pilot. Use the attached documents. Include milestones, responsible roles, decision points, staffing needs and funding."
+    ask: "Create a long-term roadmap for [solution] at [organisation] for the period after the pilot. Use the attached documents. Include milestones, responsible roles, decision points, staffing needs and funding."
   - title: "Identify benefits and risks"
     attach: "your pilot results and goals"
     ask: "Identify the main benefits and risks of continuing [solution] over the long term. Use the attached documents. For each, suggest a measure, an owner and an action to manage it."

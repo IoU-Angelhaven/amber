@@ -1,11 +1,11 @@
 ---
 step: step-3
 order: 3
-title: "Resource Mobilization"
+title: "Resource Mobilisation"
 summary: |-
-  Mobilizing resources moves the implementation from planning to action. It secures formal commitments, engages stakeholders and sets up the structures and communication needed to keep up the momentum.
+  Mobilising resources moves the implementation from planning to action. It secures formal commitments, engages stakeholders and sets up the structures and communication needed to keep up the momentum.
 
-  Without it, plans stay on paper and attention shifts to other priorities. Good mobilization gives clear leadership and responsibility, builds a shared understanding among stakeholders and creates early visibility for the initiative.
+  Without it, plans stay on paper and attention shifts to other priorities. Good mobilisation gives clear leadership and responsibility, builds a shared understanding among stakeholders and creates early visibility for the initiative.
 icon: people
 prompts:
   - title: "Plan the start-up"

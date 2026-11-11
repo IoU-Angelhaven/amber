@@ -1,9 +1,9 @@
 ---
 step: step-2
 order: 6
-title: "Engage and Prepare the Organization"
+title: "Engage and Prepare the Organisation"
 summary: |-
-  By now you have a good understanding of the solution that you want to implement. It is time to prepare the organization on purpose. Who needs to support it? Which decisions are ahead? Which information material do we need?
+  By now you have a good understanding of the solution that you want to implement. It is time to prepare the organisation on purpose. Who needs to support it? Which decisions are ahead? Which information material do we need?
 
   Solutions do not succeed only because the technology is good. They succeed when people understand why change is needed, feel involved in shaping it and are prepared to work in a new way.
 icon: people
@@ -16,7 +16,7 @@ prompts:
     ask: "Write four short messages about [solution]: (a) a summary for hospital leaders, (b) questions and answers for clinical staff, (c) a plain explanation for patients, and (d) a list of requirements for the IT team."
   - title: "Plan the change"
     attach: "the stakeholder map"
-    ask: "Create a change plan for introducing [solution] at [organization]. Use the attached stakeholder map. Cover: stakeholder concerns, how to handle resistance, training, how to choose super-users, support and how to measure that staff use the solution."
+    ask: "Create a change plan for introducing [solution] at [organisation]. Use the attached stakeholder map. Cover: stakeholder concerns, how to handle resistance, training, how to choose super-users, support and how to measure that staff use the solution."
 ---
 ## Checklist
 
@@ -35,7 +35,7 @@ prompts:
 - **[Communication plan](https://www.smartsheet.com/content/project-communications-plan):** Messages, audiences, channels, timing and responsibilities.
 - **[Business case](https://www.atlassian.com/work-management/project-management/business-case):** A document that explains costs, benefits and risks, and why the investment is worthwhile.
 - **[Roadmap](https://www.projectmanager.com/blog/strategic-roadmap):** A long-term plan with phases and milestones.
-- **[Change readiness assessment](https://www.prosci.com/blog/when-should-you-use-a-change-management-readiness-assessment):** Checks how prepared the organization is for change.
+- **[Change readiness assessment](https://www.prosci.com/blog/when-should-you-use-a-change-management-readiness-assessment):** Checks how prepared the organisation is for change.
 - **[Training needs analysis](https://www.aihr.com/blog/training-needs-analysis/):** Finds out which skills staff need to learn.
-- **[Patient advisory group](https://www.ahrq.gov/evidencenow/tools/advisory-council.html):** A group of patients and relatives who advise the organization.
+- **[Patient advisory group](https://www.ahrq.gov/evidencenow/tools/advisory-council.html):** A group of patients and relatives who advise the organisation.
 - **[Champions](https://link.springer.com/article/10.1186/s13012-020-01024-9):** Respected colleagues who support the change in their teams.

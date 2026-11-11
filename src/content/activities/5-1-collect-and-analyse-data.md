@@ -5,7 +5,7 @@ title: "Collect and Analyse Data (Data Collection & Analysis)"
 summary: |-
   A plan for collecting and studying data is needed to evaluate well. Base the plan on the value description and set key measures (KPIs). They should show how effective the solution is and what value it creates.
 
-  Evaluate regularly whether the solution has reached its goals and created the wanted effect. The expected results are a set of key measures, a plan for how to collect the data, and a plan for how to measure regularly, fitted into the evaluation routines that already exist in the unit or organization.
+  Evaluate regularly whether the solution has reached its goals and created the wanted effect. The expected results are a set of key measures, a plan for how to collect the data, and a plan for how to measure regularly, fitted into the evaluation routines that already exist in the unit or organisation.
 icon: chart
 prompts:
   - title: "Develop key measures"
@@ -13,7 +13,7 @@ prompts:
     ask: "Develop key measures (KPIs) for evaluating [solution]. Use the attached documents. For each measure, give a definition, the data source, the starting level, the target and how often it is measured."
   - title: "Plan data collection"
     attach: "the key measures"
-    ask: "Create a plan for collecting and studying data for [solution] at [organization]. Use the attached key measures. Include methods (surveys, interviews, patient-reported measures, data from records), responsibilities, a schedule and how the work fits into existing routines."
+    ask: "Create a plan for collecting and studying data for [solution] at [organisation]. Use the attached key measures. Include methods (surveys, interviews, patient-reported measures, data from records), responsibilities, a schedule and how the work fits into existing routines."
   - title: "Draft a questionnaire"
     attach: "the key measures"
     ask: "Draft a short questionnaire (8–10 questions) for [patients or staff] to evaluate [solution]. Use plain language and a clear rating scale. Base the questions on the attached key measures."

@@ -1,16 +1,16 @@
 ---
 step: step-4
 order: 4
-title: "Secure Organizational Resources"
+title: "Secure Organisational Resources"
 summary: |-
   This activity means formally committing and protecting the people, funding, time and infrastructure needed to deliver, sustain and expand the change. The solution then does not depend on goodwill, short-term projects or informal effort.
 
-  It turns digital change from something extra into a core part of the organization’s work. The expected results are funding and staffing that continue after the pilot, protected time for staff, clear ownership and executive support.
+  It turns digital change from something extra into a core part of the organisation’s work. The expected results are funding and staffing that continue after the pilot, protected time for staff, clear ownership and executive support.
 icon: gear
 prompts:
   - title: "Write a business case"
     attach: "your pilot results, budget and resource plan"
-    ask: "Write a business case for making [solution] a permanent part of care at [organization]. Use the attached documents. Include the problem, the benefits, the costs, the risks, the resources needed and why the solution is not optional. Mark every number that you assumed."
+    ask: "Write a business case for making [solution] a permanent part of care at [organisation]. Use the attached documents. Include the problem, the benefits, the costs, the risks, the resources needed and why the solution is not optional. Mark every number that you assumed."
   - title: "Build the argument"
     attach: "your pilot results"
     ask: "Create a list of arguments and evidence that show why the pilot results of [solution] are essential for patient care. Use the attached results. For each argument, suggest which data we still need to collect."
