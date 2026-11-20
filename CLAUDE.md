@@ -1,6 +1,6 @@
 # Notes for Claude
 
-- Website for the Interreg South Baltic project AMBeR (ehealth-implementation.eu). Static Astro site, deployed to GitHub Pages from `main` via `.github/workflows/deploy.yml`.
+- Website for the Interreg South Baltic project AMBeR. Static Astro site, deployed to GitHub Pages from `main` via `.github/workflows/deploy.yml` (preview), and by hand to Loopia at https://amber.ehealth-implementation.eu via `.github/workflows/publish-loopia.yml` (builds with `SITE_URL=https://amber.ehealth-implementation.eu`, `BASE_PATH` empty; uploads `dist/` over FTPS with `scripts/publish_ftp.py` and the secrets `FTP_USER`/`FTP_PASS`; dry run first; never touches hidden files on the server). The main domain ehealth-implementation.eu belongs to the shared platform, not to this site.
 - The maintainers are not programmers and write prompts in Swedish. Reply in Swedish, in plain language. All website content must be in English.
 - Content lives in Markdown under `src/content/` (schemas in `src/content.config.ts`) and is edited by the maintainers through Pages CMS (`.pages.yml`). When a content schema changes, update `.pages.yml` to match.
 - The model has 5 phases and 30 activities (source: the AMBeR "Implementation Guide – All Phases" Word document). On the site they are called "Phase"; internally the files and ids are `step-1` … `step-5`, which are used in URLs and referenced from activities and stories. Keep them stable.
