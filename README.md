@@ -80,22 +80,26 @@ Struktur, design och nya funktioner kan ni be Claude om (på svenska). Ändringa
 och slås ihop med `main` via en pull request när ni har godkänt dem. Slå ihop en pull request först när alla
 ändringar ni väntar på är med – det som läggs till efteråt behöver en ny pull request.
 
-## Publicering (GitHub Pages)
+## Publicering
 
-Webbplatsen byggs och publiceras automatiskt av GitHub varje gång något sparas på grenen `main`.
+Webbplatsen publiceras på två ställen:
 
-**Inställning som måste vara rätt (görs en gång):**
+- **GitHub Pages (förhandsvisning):** byggs och publiceras automatiskt varje gång något sparas på grenen `main`. Adressen är <https://iou-angelhaven.github.io/amber/>.
+- **Loopia (den riktiga adressen):** <https://amber.ehealth-implementation.eu>. Publiceras bara när någon trycker på knappen, se nedan.
+
+**GitHub Pages: inställning som måste vara rätt (görs en gång):**
 GitHub → repot → *Settings* → *Pages* → *Build and deployment* → *Source*: välj **GitHub Actions**.
 (Välj *inte* "Deploy from a branch" – då försöker GitHub visa källkoden i stället för den färdiga webbplatsen.)
-
-Adressen blir då <https://iou-angelhaven.github.io/ehealth-implementation/>.
-
 Om publiceringen misslyckas: gå till fliken *Actions*, öppna "Build and publish website" och klicka *Re-run jobs*.
 
-**Senare – egen domän (ehealth-implementation.eu):**
-1. *Settings* → *Pages* → *Custom domain*: skriv `ehealth-implementation.eu` och spara. Kryssa i *Enforce HTTPS* när det går.
-2. Hos Loopia (DNS): fyra A-poster för `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`, och en CNAME-post för `www` → `iou-angelhaven.github.io`.
-3. Kör "Build and publish website" en gång till (fliken *Actions* → *Run workflow*). Länkarna anpassas automatiskt till den nya adressen.
+**Loopia: publicera för hand**
+1. Fliken *Actions* → **Publish to Loopia (amber.ehealth-implementation.eu)** → *Run workflow*.
+2. Välj först **Dry run**. Den loggar in hos Loopia och visar vilka filer som skulle laddas upp och tas bort, utan att ändra något.
+3. Ser det rätt ut: kör igen och välj **Publish**. Ändringen syns på amber.ehealth-implementation.eu efter en kort stund (Loopias cache).
+
+Inloggningen till Loopia ligger som hemligheterna `FTP_USER` och `FTP_PASS` (*Settings* → *Secrets and variables* → *Actions*). FTP-kontot når bara AMBeR:s mapp hos Loopia. Lösenord skrivs aldrig i filer, commits eller chatt.
+
+Huvudadressen ehealth-implementation.eu ska inte pekas till GitHub Pages: den blir den gemensamma plattformens ingång (se plattformens repo, `docs/LOOPIA-TAGORDNING.md`).
 
 ## För utvecklare
 

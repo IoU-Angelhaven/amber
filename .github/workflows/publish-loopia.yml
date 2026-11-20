@@ -1,0 +1,64 @@
+name: Publish to Loopia (amber.ehealth-implementation.eu)
+
+# Builds the site for https://amber.ehealth-implementation.eu and uploads it to Loopia over encrypted FTP (FTPS).
+# Runs only by hand: Actions → "Publish to Loopia" → Run workflow. Start with "Dry run", which signs in and
+# shows what would change without changing anything.
+# The FTP login is in the repository secrets FTP_USER and FTP_PASS (Settings → Secrets and variables → Actions).
+# The account should only reach the AMBeR folder on Loopia. The publishing to GitHub Pages (deploy.yml) is not affected.
+
+on:
+  workflow_dispatch:
+    inputs:
+      what:
+        description: "What should happen?"
+        type: choice
+        options:
+          - Dry run (show what would change)
+          - Publish
+        default: Dry run (show what would change)
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-loopia      # never two uploads at the same time
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Build for amber.ehealth-implementation.eu
+        run: npm run build
+        env:
+          SITE_URL: https://amber.ehealth-implementation.eu
+          BASE_PATH: ""
+      - name: Web server settings (Loopia only)
+        run: |
+          cat > dist/.htaccess <<'HTACCESS'
+          # Written by publish-loopia.yml
+          ErrorDocument 404 /404.html
+          Options -Indexes
+          <IfModule mod_headers.c>
+            Header always set X-Content-Type-Options "nosniff"
+            Header always set Referrer-Policy "strict-origin-when-cross-origin"
+            Header always set X-Frame-Options "SAMEORIGIN"
+          </IfModule>
+          HTACCESS
+      - name: Check the build
+        run: |
+          test -f dist/index.html && test -f dist/404.html
+          grep -q "Sitemap: https://amber.ehealth-implementation.eu/sitemap.xml" dist/robots.txt
+          if grep -rl "iou-angelhaven.github.io" dist --include=*.html --include=*.xml --include=*.txt; then echo "The build still points to GitHub Pages"; exit 1; fi
+      - name: Upload
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: python3 scripts/publish_ftp.py dist ${{ startsWith(inputs.what, 'Dry run') && '--dry-run' || '' }}
